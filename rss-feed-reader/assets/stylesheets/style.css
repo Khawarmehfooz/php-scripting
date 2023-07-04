@@ -1,0 +1,67 @@
+html {
+  font-family: "Poppins", sans-serif;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+}
+main {
+  margin-top: 8rem;
+  margin-inline: auto;
+}
+main h1 {
+  text-align: center;
+}
+form {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+input[type="url"] {
+  padding: 8px 5px;
+  width: 400px;
+  outline: none;
+  border: 2px solid black;
+  border-radius: 3px;
+  font-size: 1.2rem;
+}
+input[type="url"]::placeholder {
+  font-family: "Poppins", sans-serif;
+}
+input[type="submit"] {
+  background-color: transparent;
+  font-size: 1.2rem;
+  padding: 8px 5px;
+  border: 2px solid black;
+  border-radius: 3px;
+  box-shadow: 2px 2px;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  box-shadow: 4px 4px;
+}
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin-inline: auto;
+}
+.site-title {
+  width: 80%;
+  margin-inline: auto;
+  text-decoration: underline;
+}
+th,
+td {
+  text-align: left;
+  vertical-align: top;
+}
+@media screen and (max-width: 600px) {
+  form {
+    flex-direction: column;
+  }
+}
