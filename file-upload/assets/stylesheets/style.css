@@ -1,0 +1,60 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html,
+input {
+  font-family: "Poppins", sans-serif;
+}
+img,
+svg,
+picture {
+  display: block;
+  width: 100%;
+}
+main {
+  margin-top: 6rem;
+  text-align: center;
+  width: 90%;
+  margin-inline: auto;
+}
+.file__preview {
+  height: 300px;
+  width: min(500px, 95%);
+  border: 2px solid black;
+  margin-inline: auto;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  position: relative;
+}
+.file__preview img {
+  width: 200px;
+  margin-inline: auto;
+}
+#file__label {
+  position: absolute;
+  width: 100%;
+  padding: 8px 0;
+  bottom: 0;
+  background-color: black;
+  color: white;
+  display: block;
+  border: 2px solid;
+  cursor: pointer;
+  outline: none;
+  border-radius: 3px;
+}
+input[type="submit"] {
+  border: 2px solid black;
+  outline: none;
+  border-radius: 5px;
+  padding: 5px 15px;
+  box-shadow: 2px 2px;
+  background-color: transparent;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  box-shadow: 4px 4px;
+  transition: 0.2s ease-in-out;
+}
