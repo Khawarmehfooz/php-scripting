@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;700&display=swap");
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+html {
+  font-family: "Inter", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+  display: block;
+}
+form {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.form-group {
+  border: 1px solid #aaa;
+  border-radius: 2px;
+  padding: 0.3rem 0.5rem;
+}
+select {
+  border: none;
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+}
+#search-btn {
+  background-color: darkgoldenrod;
+  color: white;
+  border: none;
+  padding: 0.4rem 1rem;
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+}
+.products {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.product-card {
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 2px;
+}
+.product-name {
+  background-color: #0095d7;
+  padding: 1rem 0;
+  color: white;
+}
+.product-img {
+  height: 300px;
+  width: 300px;
+  margin: .5rem auto;
+}
+.product-short-description{
+  background-color: #e8e9e8;
+  padding: .5rem .5rem 1rem .5rem;
+}
